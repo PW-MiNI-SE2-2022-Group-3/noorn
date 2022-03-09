@@ -11,7 +11,7 @@ namespace StringCalculator2
         public static int SumString(string s)
         {
             if (string.IsNullOrWhiteSpace(s))
-                return 0;
+                return 0; //correct here.
 
             string[] delimeters = new string[] { "\n", "," };
 
